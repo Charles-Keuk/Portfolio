@@ -35,10 +35,9 @@ export const profile = {
   tagline:
     "Je conçois des applications web et mobiles performantes, pensées pour le contexte africain : Mobile Money, SMS, FCFA et adressage local.",
   email: "charlesfeugang1@gmail.com",
-  phone: "+237 6 00 00 00 00", // EXEMPLE
+  phone: "+237 6 52 08 30 96/ 6 57 84 70 13",
   cvUrl: "/cv.pdf", // placez votre CV dans /public/cv.pdf
-  photo: "charles.png",
-  img: "charles.png",  // ex. "/charles.jpg" (dans /public) — sinon le logo est affiché
+  photo: "charles.png", // ex. "/charles.jpg" (dans /public) — sinon le logo est affiché
   socials: {
     github: "https://github.com/Charles-Keuk", 
     linkedin: "https://www.linkedin.com/in/charles-keukouo-b854892ba/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BHe7HO9cKTdii1LQCzrCfEg%3D%3D", // EXEMPLE
@@ -58,6 +57,8 @@ export const navLinks = [
 export const marqueeItems = [
   "Développement Web",
   "Applications Mobiles",
+  "Applications Desktop",
+  "SDK", 
   "API & Back-end",
   "UI/UX Design",
   "Mobile Money & SMS",
@@ -77,14 +78,14 @@ export const about = {
 
 export const timeline = [
   {
-    title: "Étudiant en Génie Logiciel",
-    place: "Université de Dschang",
-    text: "Formation en génie logiciel, préparation de la Licence Professionnelle / BTS.",
+    title: "Étudie en Génie Logiciel ",
+    place: "Institut Universitaire des Grandes Ecoles des Tropiques",
+    text: "Formation en génie logiciel, Détenteur d'une licence Professionnelle donc d'un brevet de technicien Supérieur et également en formation chez la RocketForce academique pour la certification d'admin Sasleforce",
   },
   {
     title: "Développeur Full-Stack",
     place: "Douala, Cameroun",
-    text: "Conception de plateformes web et mobiles : logistique, mobilité, fitness, notifications.",
+    text: "Conception de plateformes web, mobiles et desktop : logistique, mobilité, fitness, notifications, applications de bureau.",
   },
 ];
 
