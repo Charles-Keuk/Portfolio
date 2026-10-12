@@ -16,6 +16,7 @@ import {
 import {
   FiCode,
   FiSmartphone,
+  FiDollarSign,
   FiServer,
   FiPenTool,
   FiCreditCard,
@@ -212,7 +213,7 @@ export const projects = [
     {
     title: "Plateforme Financière",
     category: "Back-end",
-    icon: FiMoney,
+    icon: FiDollarSign,
     images:"public/getmipay.png",
     gradient: "from-sky-500 to-indigo-600",
     description:
