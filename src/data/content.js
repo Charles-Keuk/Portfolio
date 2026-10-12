@@ -178,6 +178,7 @@ export const projects = [
     title: "OptimRoute CM",
     category: "Mobile",
     icon: FiNavigation,
+    images: "public/optimrout.png",
     gradient: "from-blue-500 to-violet-600",
     description:
       "Plateforme logistique d'optimisation de tournées de livraison : back-end, application mobile et tableau de bord web.",
@@ -189,6 +190,7 @@ export const projects = [
     title: "Malik Home Fitness",
     category: "Web",
     icon: FiBarChart2,
+    images:"public/malikhomefitness.png", 
     gradient: "from-violet-500 to-fuchsia-500",
     description:
       "Application web de fitness avec une page d'accueil animée et un tableau de bord d'administration (Next.js, TailAdmin).",
@@ -207,10 +209,23 @@ export const projects = [
     demo: "",
     code: "",
   },
+    {
+    title: "Plateforme Financière",
+    category: "Back-end",
+    icon: FiMoney,
+    images:"public/getmipay.png",
+    gradient: "from-sky-500 to-indigo-600",
+    description:
+      "Service de gestion financière et de transfère d'argent a l'internationnal",
+    tags: ["Symfony", "Mercure", "SMS"],
+    demo: "",
+    code: "",
+  },
   {
     title: "Plateforme de notification",
     category: "Back-end",
     icon: FiBell,
+    images:"public/mijorsoft.png",
     gradient: "from-sky-500 to-indigo-600",
     description:
       "Service de notifications réutilisable pour plusieurs projets : push, e-mail, SMS (Africa's Talking) et temps réel avec Mercure.",
