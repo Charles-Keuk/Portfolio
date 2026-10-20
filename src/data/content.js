@@ -196,7 +196,7 @@ export const projects = [
     description:
       "Application web de fitness avec une page d'accueil animée et un tableau de bord d'administration (Next.js, TailAdmin).",
     tags: ["Next.js", "Tailwind CSS", "Admin"],
-    demo: "",
+    demo: "https://malikhomefit.com/",
     code: "",
   },
   {
