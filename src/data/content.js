@@ -67,7 +67,7 @@ export const marqueeItems = [
 
 export const about = {
   paragraphs: [
-    "Développeur logiciel basé à Douala, je suis étudiant en Génie Logiciel à l'Université de Dschang. Je travaille sur des projets full-stack, du back-end à l'application mobile, en passant par les tableaux de bord web.",
+    "Développeur logiciel basé à Douala, je suis étudiant en Génie Logiciel dans une Institut Universitaire de Douala. Je travaille sur des projets full-stack, du back-end à l'application mobile, en passant par les tableaux de bord web.",
     "J'aime construire des produits utiles pour le marché local : intégration de MTN Mobile Money et Orange Money, notifications par SMS, optimisation de trajets de livraison et plateformes de mobilité.",
   ],
   stats: [
@@ -80,7 +80,7 @@ export const about = {
 export const timeline = [
   {
     title: "Étudie en Génie Logiciel ",
-    place: "Institut Universitaire des Grandes Ecoles des Tropiques",
+    place: "Institut Universitaire de Douala",
     text: "Formation en génie logiciel, Détenteur d'une licence Professionnelle donc d'un brevet de technicien Supérieur et également en formation chez la RocketForce academique pour la certification d'admin Sasleforce",
   },
   {
