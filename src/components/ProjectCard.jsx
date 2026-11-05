@@ -1,11 +1,11 @@
 import { motion } from "framer-motion";
 import { FiArrowRight, FiArrowUpRight, FiGithub } from "react-icons/fi";
 
-/** Vignette générée en CSS (remplacez par une capture : ajoutez `image: "/projets/x.png"` au projet). */
+/** Vignette générée en CSS si le projet ne possède pas de capture. */
 function Thumb({ project }) {
   const Icon = project.icon;
-  if (project.images) {
-    return <img src={project.images} alt={project.title} className="h-full w-full object-cover" />;
+  if (project.image) {
+    return <img src={project.image} alt={project.title} className="h-full w-full object-cover" />;
   }
   return (
     <div className={`relative h-full w-full overflow-hidden bg-gradient-to-br ${project.gradient}`}>

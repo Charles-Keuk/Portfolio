@@ -18,7 +18,7 @@ Les valeurs marquées `EXEMPLE` (téléphone, liens GitHub/LinkedIn/WhatsApp, ch
 
 - Photo : placez `charles.jpg` dans `public/` puis `photo: "/charles.jpg"` (sinon le logo est affiché).
 - CV : placez `cv.pdf` dans `public/`.
-- Capture d'un projet : `image: "/projets/mon-projet.png"` dans l'objet du projet.
+- Capture d'un projet : placez l'image dans `public/`, puis indiquez `image: "/mon-projet.png"` dans l'objet du projet.
 - Témoignages : ajoutez de vrais retours dans `testimonials` — la section apparaît automatiquement.
 
 ## Charte graphique & thème jour/nuit
